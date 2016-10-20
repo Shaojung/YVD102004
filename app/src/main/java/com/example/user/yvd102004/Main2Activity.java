@@ -23,4 +23,8 @@ public class Main2Activity extends AppCompatActivity {
         setResult(RESULT_OK, it);
         finish();
     }
+    public void click2(View v)
+    {
+        finish();
+    }
 }

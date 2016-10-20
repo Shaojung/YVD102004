@@ -28,4 +28,13 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/button2"
         android:onClick="click1" />
+
+    <Button
+        android:text="取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_toStartOf="@+id/button2"
+        android:id="@+id/button3"
+        android:onClick="click2" />
 </RelativeLayout>
